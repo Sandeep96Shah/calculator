@@ -53,7 +53,7 @@ class App extends Component {
     }else if(btn === "+/-"){
       this.plusMinus();
     }else{
-      if(this.state.result === "0"){
+      if(this.state.result == "0"){
         this.setState({
           result:btn,
         })
